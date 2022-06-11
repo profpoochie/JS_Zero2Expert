@@ -9,7 +9,7 @@
 
 // let jonas_matilda = "JM";
 // let PI = 3.1415;
-
+/* 
 // true;
 // console.log(true);
 let javascriptIsFun = true;
@@ -30,4 +30,17 @@ year = 1991;
 console.log(year);
 console.log(typeof year);
 
-console.log(typeof null);
+console.log(typeof null); */
+
+let age = 30;
+age = 31;
+const birthYear = 1991;
+// birthYear = 1990;
+
+// const job;
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Borhillo";
+console.log(lastName);
