@@ -187,7 +187,7 @@ console.log("I am " + 23 + " years old");
 console.log("23" + "10" + 3);
 console.log("23" * "2");
 
-*/
+
 
 // 5 falsy values: 0, '', undefined, null, NaN
 
@@ -209,4 +209,33 @@ if (height) {
   console.log("YAY! Height is defined");
 } else {
   console.log("Height is UNDEFINED");
+}
+
+
+
+const age = "18";
+if (age === 18) console.log("You just became and adult. strict");
+
+if (age == 18) console.log("You just became and adult. loose");
+*/
+
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
+
+const isTired = false; // C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive...");
 }
