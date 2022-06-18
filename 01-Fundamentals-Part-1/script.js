@@ -251,12 +251,14 @@ const scoreKoalas2 = 91;
 const scoreKoalas3 = 110;
 
 const averageDolphins = (scoreDolphins1 + scoreDolphins2 + scoreDolphins3) / 3;
-const averaKoalas = (scoreKoalas1 + scoreKoalas2 + scoreKoalas3) / 3;
+const averageKoalas = (scoreKoalas1 + scoreKoalas2 + scoreKoalas3) / 3;
 
 console.log(`Dolphine average = ${averageDolphins}
-Koalas average = ${averaKoalas}`);
-if (averageDolphins > averaKoalas) {
+Koalas average = ${averageKoalas}`);
+if (averageDolphins > averageKoalas) {
   console.log("Dolphine wins.");
-} else {
+} else if (averageKoalas > averageDolphins) {
   console.log("Koalas wins.");
+} else {
+  console.log("It's a tie.");
 }
